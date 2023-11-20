@@ -18,6 +18,7 @@ INSERT INTO `product`(`name`, `description`, `category_id`, `unit_price`, `creat
 INSERT INTO `product`(`name`, `description`, `category_id`, `unit_price`, `created`, `is_active`) VALUES ('Свинско', 'Месо от ферма', 2, 25.6, '2023-10-24 10:50:00', 1);
 INSERT INTO `product`(`name`, `description`, `category_id`, `unit_price`, `created`, `is_active`) VALUES ('Чушки', 'от с.Ивайло', 3, 8, '2023-10-24 10:50:00', 1);
 INSERT INTO `product`(`name`, `description`, `category_id`, `unit_price`, `created`, `is_active`) VALUES ('Ябълки', 'от с.Черногорово', 4, 4, '2023-10-24 10:50:00', 1);
+INSERT INTO `product`(`name`, `description`, `category_id`, `unit_price`, `created`, `is_active`) VALUES ('Ягоди', 'от с.Горно нандолнище', 4, 6.5, '2023-11-07 10:50:00', 1);
 
 INSERT INTO `sales`(`store_id`, `product_id`, `sold_on`, `amount`, `total_price`) VALUES (1,1,'2023-10-24 10:50:00',2,0);
 INSERT INTO `sales`(`store_id`, `product_id`, `sold_on`, `amount`, `total_price`) VALUES (1,2,'2023-10-24 10:50:00',3,0);

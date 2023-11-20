@@ -70,4 +70,17 @@ public class Product {
     public void setIs_active(boolean is_active) {
         this.is_active = is_active;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", category=" + category +
+                ", unit_price=" + unit_price +
+                ", created=" + created +
+                ", is_active=" + is_active +
+                '}';
+    }
 }

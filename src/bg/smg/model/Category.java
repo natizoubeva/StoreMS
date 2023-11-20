@@ -8,9 +8,7 @@ public class Category {
     private Timestamp created;
     private boolean is_active;
 
-    Category(){
-
-    }
+    public Category(){}
 
     public int getId() {
         return id;
